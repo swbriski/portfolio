@@ -3,12 +3,13 @@ import { Card, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap"
 // Images
 import PlaceholderImage from '../assets/placeholderimage.png'
 import CatAndMouse from '../assets/catandmouse.png'
+import LaughHost from '../assets/LaughHost.png'
 
 const Projects = () => {
 
   const portfolio = [
+    { name: "Laugh Host:3001", description: "A full-stack application using React and Ruby on Rails. Displays full CRUD functionality for recipes, an external API that generates jokes, and a Pig Latin translator.", imageSrc: LaughHost, website: "https://laughhost3001.onrender.com/", code: "https://github.com/The-Laughing-Llamas/laugh-host3001-frontend"},
     { name: "Cat and Mouse", description: "A themed Treasure Hunt game made using React.", imageSrc: CatAndMouse, website: "https://swbriski-cat-and-mouse.onrender.com/", code: "https://github.com/swbriski/catandmousetreasurehunt"},
-    // { name: "Project 2", description: "lorem ipsum", imageSrc: PlaceholderImage},
     // { name: "Project 3", description: "lorem ipsum", imageSrc: PlaceholderImage},
     // { name: "Project 4", description: "lorem ipsum", imageSrc: PlaceholderImage},
     // { name: "Project 5", description: "lorem ipsum", imageSrc: PlaceholderImage},
